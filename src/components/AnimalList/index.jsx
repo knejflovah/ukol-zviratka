@@ -6,7 +6,7 @@ const AnimalList = ({zooAnimal, selectAnimal}) => {
 
     return (
         
-        <div class="animal-list" >
+        <div className="animal-list" >
 
             
             {zooAnimal.map((zooAnimal)=>(
